@@ -1,0 +1,74 @@
+*{
+  margin: 0px;
+  padding: 0px;;  
+}
+.main{
+    background-color: white;
+    border-radius:30px;
+}
+
+body{
+    background-color:#001e4d;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    padding-top: 100px;
+}
+.app{
+    
+    width:500px;
+    margin:30px;
+    border-radius:50%;
+}
+.app h1{
+    border-bottom: 2px solid black;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-radius: 100px;
+}
+.app1{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.butt{
+    width:100%; 
+    text-align: left;
+    height:40px;
+    font-size: 15px;
+    justify-content:space-around;
+    padding:10px;
+    border: 1px,solid,#222;
+    margin-top: 20px;
+    border-radius: 6px;
+    cursor:pointer;
+}
+.butt:hover:not([disabled]){
+    background-color: black;
+    color:white;
+
+}
+.butt:disabled{
+    cursor:no-drop;
+}
+.butn{
+  border-radius: 40px;
+  height:30px;
+  width:250px;
+  color:white;
+  background-color: rgb(9, 9, 197);
+  cursor:pointer;
+  display: none;
+}
+.butnmain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+.correct{
+    background-color: green;
+}
+.incorrect{
+    background-color: red;
+}
